@@ -17,9 +17,7 @@ right.addEventListener("mouseenter", () => {
 right.addEventListener("mouseleave", () => {
   container.classList.remove("hover-right");
 });
-const left = document.querySelector(".left");
-const right = document.querySelector(".right");
-const container = document.querySelector(".container");
+
 
 left.addEventListener("mouseenter", () => {
   container.classList.add("hover-left");
