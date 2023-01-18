@@ -69,7 +69,7 @@ body {
   line-height: 1.5;
   color: #444;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(44, 40, 40);
 }
 
 [tabindex="-1"]:focus {
@@ -85,11 +85,13 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color: white;
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: white;
 }
 
 abbr[title],
@@ -488,6 +490,15 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  opacity: 0.4;
+}
+
+.img-fluid:hover {
+
+  opacity: 1;
+  transition: 1s ease-out;
+  transition-timing-function: ease-out;
+  scale: 150%;
 }
 
 .img-thumbnail {
@@ -5082,6 +5093,7 @@ input[type="button"].btn-block {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding: 1.25rem;
+  background-color: rgb(44, 40, 40);
 }
 
 .card-title {
@@ -11476,10 +11488,11 @@ textarea.form-control {
   left: 0;
   width: 100%;
   z-index: 9;
+  
 }
 
 .header .shape svg path {
-  fill: #fff;
+  fill: none;
 }
 
 @media (max-width: 1199.98px) {
@@ -11544,7 +11557,8 @@ textarea.form-control {
 }
 
 .section {
-  padding: 80px 0;
+  padding: 38px 0;
+  background-color: rgb(44, 40, 40);
 }
 
 .section:nth-child(even) {
@@ -11555,6 +11569,11 @@ textarea.form-control {
   display: block;
   height: 1px;
   margin: 50px 0;
+}
+
+#about, #blog {
+
+  background-color: rgb(44, 40, 40);
 }
 
 .section .section-devider.transparent {
@@ -11580,8 +11599,9 @@ textarea.form-control {
 
 .section .section-title {
   font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
-  padding-bottom: 7px;
+  padding-bottom: 73px;
   font-weight: 600;
+  padding-top: 30px;
 }
 
 .section .components-section-title {
@@ -11650,7 +11670,7 @@ textarea.form-control {
   border-radius: 100px;
   padding: 2px;
   margin: 0 auto 20px;
-  max-width: 400px;
+  max-width: 551px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -11665,7 +11685,7 @@ textarea.form-control {
   -webkit-flex-basis: 0;
       -ms-flex-preferred-size: 0;
           flex-basis: 0;
-  color: #444;
+  color: white;
   font-size: 13px;
   font-weight: 500;
   opacity: .7;
@@ -11702,7 +11722,7 @@ textarea.form-control {
   border-radius: 0;
 }
 
-.portfolio-section .portfolio-container .portfolio-item .content-holder {
+/* .portfolio-section .portfolio-container .portfolio-item .content-holder {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11712,11 +11732,12 @@ textarea.form-control {
   left: 200%;
   width: 100%;
   height: 100%;
-  background: rgba(255, 110, 66, 0.8);
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+background-color: black;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -11732,7 +11753,7 @@ textarea.form-control {
   visibility: hidden;
   -webkit-transition: all 0.28s;
   transition: all 0.28s;
-}
+} */
 
 .portfolio-section .portfolio-container .portfolio-item .content-holder .title {
   font-size: 22px;
