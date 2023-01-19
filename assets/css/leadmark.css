@@ -11717,7 +11717,7 @@ textarea.form-control {
   border-radius: 0;
 }
 
-/* .portfolio-section .portfolio-container .portfolio-item .content-holder {
+.portfolio-section .portfolio-container .portfolio-item .content-holder {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11748,7 +11748,7 @@ background-color: black;
   visibility: hidden;
   -webkit-transition: all 0.28s;
   transition: all 0.28s;
-} */
+} 
 
 .portfolio-section .portfolio-container .portfolio-item .content-holder .title {
   font-size: 22px;
