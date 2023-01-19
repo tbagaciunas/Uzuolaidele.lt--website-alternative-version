@@ -11659,7 +11659,7 @@ textarea.form-control {
   border-radius: 100px;
   padding: 2px;
   margin: 0 auto 20px;
-  max-width: 400px;
+  max-width: 550px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -11759,4 +11759,5 @@ background-color: black;
   left: 50%;
   opacity: 1;
   visibility: visible;
+}
 }
