@@ -11559,6 +11559,7 @@ textarea.form-control {
 .section {
   padding: 38px 0;
   background-color: rgb(44, 40, 40);
+  display: flex;
 }
 
 .section:nth-child(even) {
@@ -11667,7 +11668,7 @@ textarea.form-control {
 
 .portfolio-section .filters {
   border: 2px solid #dee2e6;
-  border-radius: 100px;
+
   padding: 2px;
   margin: 0 auto 20px;
   max-width: 551px;
