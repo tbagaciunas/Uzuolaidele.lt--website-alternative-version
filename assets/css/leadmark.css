@@ -11493,11 +11493,11 @@ textarea.form-control {
   .header .shape svg {
     bottom: 0;
   }
-  .portfolio-section .filters {
+/*   .portfolio-section .filters {
 
     display: flex;
   flex-direction: column;
-}
+} */
 
 .header.components-header {
   max-height: 450px !important;
