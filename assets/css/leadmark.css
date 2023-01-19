@@ -11682,9 +11682,9 @@ textarea.form-control {
 }
 
 .portfolio-section .filters a {
-  -webkit-flex-basis: 0;
+  -webkit-flex-basis: auto;
       -ms-flex-preferred-size: 0;
-          flex-basis: 0;
+          flex-basis: auto;
   color: white;
   font-size: 13px;
   font-weight: 500;
