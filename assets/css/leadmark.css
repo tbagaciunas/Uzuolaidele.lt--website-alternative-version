@@ -11758,3 +11758,26 @@ background-color: black;
   opacity: 1;
   visibility: visible;
 }
+
+/* CSS for the image popup */
+.img-popup {
+  position: relative;
+  display: inline-block;
+}
+
+/* CSS for the image */
+.img-popup img {
+  display: block;
+  cursor: pointer;
+}
+
+/* CSS for the expanded image */
+.img-popup img:focus {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  outline: none;
+}
