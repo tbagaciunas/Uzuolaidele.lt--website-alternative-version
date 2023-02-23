@@ -42,8 +42,16 @@ $(window).on("load", function() {
     })
 })
 
-const myImage = document.getElementById("my-image");
+// const myImage = document.getElementById("my-image");
 
-myImage.addEventListener("click", function() {
-  this.classList.toggle("expanded");
+// myImage.addEventListener("click", function() {
+//   this.classList.toggle("expanded");
+// });
+
+
+const portfolioItems = document.querySelectorAll('.portfolio-item');
+portfolioItems.forEach(item => {
+  item.addEventListener('click', () => {
+    item.style.overflow = 'hidden';
+  });
 });
