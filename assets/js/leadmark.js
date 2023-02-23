@@ -49,9 +49,29 @@ $(window).on("load", function() {
 // });
 
 
+// const portfolioItems = document.querySelectorAll('.portfolio-item');
+// portfolioItems.forEach(item => {
+//   item.addEventListener('click', () => {
+//     item.style.overflow = 'visible';
+//   });
+
+//   item.addEventListener('click', () => {
+//     item.style.overflow = 'hidden';
+//   });
+// });
+
+
 const portfolioItems = document.querySelectorAll('.portfolio-item');
 portfolioItems.forEach(item => {
   item.addEventListener('click', () => {
-    item.style.overflow = 'hidden';
+    if (item.style.overflow === 'visible') {
+      item.style.overflow = 'hidden';
+ 
+      item.style.cursor = 'zoom-in';
+    } else {
+      item.style.overflow = 'visible';
+      item.style.cursor = 'zoom-out';
+     
+    }
   });
 });

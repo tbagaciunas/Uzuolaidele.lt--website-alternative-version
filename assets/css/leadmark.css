@@ -11636,7 +11636,7 @@ textarea.form-control {
 
 .section.has-img-bg {
   position: relative;
-  background: url(../imgs/header.jpg) no-repeat center top fixed;
+  background: url(../imgs/header.webp) no-repeat center top fixed;
   background-size: cover;
   color: #fff;
 }
@@ -11710,15 +11710,16 @@ textarea.form-control {
   padding-left: 0;
   padding-right: 0;
   margin: 10px -5px;
-  overflow: visible;
+  overflow: hidden;
   border-radius: 0;
-  cursor:zoom-out;
+  /* cursor:zoom-out; */
 }
 
 .portfolio-item:hover {
 
   z-index: 999;
   animation: appear 2s ease-in-out ;
+ cursor: zoom-in;
 }
 @keyframes appear {
   0% {
