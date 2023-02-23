@@ -11564,6 +11564,10 @@ textarea.form-control {
   background-color: rgb(44, 40, 40);
 }
 
+#abouttwo {
+  display: none;
+}
+
 .section .section-devider.transparent {
   background-color: transparent;
 }
