@@ -11608,6 +11608,7 @@ textarea.form-control {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   border: none;
   }
 @media (min-width: 992px) {
   .section .components-section-title {
