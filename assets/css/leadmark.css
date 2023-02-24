@@ -11601,13 +11601,14 @@ textarea.form-control {
   margin-bottom: 15px;
 }
 
+/* menu column */
 
-.filters {
-  
-  display: flex;
-  flex-wrap: wrap;
 
-}
+ .filters {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 @media (min-width: 992px) {
   .section .components-section-title {
     font-size: 23px;
