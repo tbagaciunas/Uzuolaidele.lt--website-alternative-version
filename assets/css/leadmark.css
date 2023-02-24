@@ -11601,6 +11601,13 @@ textarea.form-control {
   margin-bottom: 15px;
 }
 
+
+.filters {
+  
+  display: flex;
+  flex-wrap: wrap;
+
+}
 @media (min-width: 992px) {
   .section .components-section-title {
     font-size: 23px;
