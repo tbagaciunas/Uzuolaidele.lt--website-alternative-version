@@ -11610,6 +11610,10 @@ textarea.form-control {
     align-items: center;
    border: none;
   }
+
+  .navbar-expand-md .navbar-toggler {
+    display: none;
+  }
 @media (min-width: 992px) {
   .section .components-section-title {
     font-size: 23px;
